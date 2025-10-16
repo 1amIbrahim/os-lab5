@@ -1,6 +1,7 @@
 
 ## 📂 Folder Structure
 os-basics/
+
 ├── logger/
 │ ├── logger.c # Implementation of custom logger
 │ ├── logger.h # Header for logger functions
