@@ -28,23 +28,20 @@ sudo apt update
 sudo apt install build-essential cmake git
 ```
 
-# Clone OS Basics
-git clone https://github.com/Omer-Majeed/os-basics.git
-cd os-basics
-
-# Clone SPDLOG inside os-basics/
-git clone https://github.com/gabime/spdlog.git
-
 # BUILD
+```bash
 mkdir -p build
 cd build
 cmake ..
 make -j$(nproc)
+```
 
 # Run SPDLOG version
+```
 ./s3_producer_consumer_v1_mutex/s3_test_spdlog
-
+```
 # Run Custom Logger version
+```
 ./s3_producer_consumer_v1_mutex/s3_test_custom
-
+```
 
