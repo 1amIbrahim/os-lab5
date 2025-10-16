@@ -3,18 +3,31 @@
 os-basics/
 
 ├── logger/
+
 │ ├── logger.c # Implementation of custom logger
+
 │ ├── logger.h # Header for logger functions
+
 │ ├── app_log.h # Wrapper to toggle between loggers
+
 │
+
 ├── s3_producer_consumer_v1_mutex/
+
 │ ├── main.cc # Producer–Consumer test code
+
 │ └── CMakeLists.txt # Builds both spdlog and custom logger versions
+
 │
+
 ├── spdlog/
+
 │ └── include/ # Cloned spdlog header-only library
+
 │
+
 ├── CMakeLists.txt # Root CMake config for building custom logger
+
 └── build/ # Generated build folder
 
 
